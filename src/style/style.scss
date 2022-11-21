@@ -1,0 +1,54 @@
+/* nunito-300 - latin */
+@font-face {
+    font-family: 'Nunito Light';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Nunito Light'),
+         url('./fonts/nunito-sans-v12-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/nunito-sans-v12-latin-300.woff') format('woff'), /* Modern Browsers */
+  }
+  /* nunito-regular - latin */
+  @font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Nunito'),
+         url('./fonts/nunito-sans-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/nunito-sans-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+  }
+  /* nunito-700 - latin */
+  @font-face {
+    font-family: 'Nunito Bold';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Nunito Bold'),
+         url('./fonts/nunito-sans-v12-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/nunito-sans-v12-latin-700.woff') format('woff'), /* Modern Browsers */
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    color: $darkPrimary;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 30px 30px;
+}
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.8em;
+}
+h3{
+    font-size: 1.3em;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
